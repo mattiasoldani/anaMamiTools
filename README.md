@@ -2,12 +2,14 @@
 
 [![python](https://img.shields.io/badge/python->=3-blue.svg)](https://www.python.org/) [![anaconda](https://img.shields.io/badge/anaconda-3-blue.svg)](https://www.anaconda.com/)
 
-This is **anaMamiTools**, a set of a Python- and Jupyter-based data handling and analysis tools for the STORM (former ELIOT/STORM) team experimental studies performed at the MAMI (MAinzer MIkrotron) B beamtest facility and focused on the electromagnetic interactions between high-energy particles and oriented crystalline lattices. In particular, measurements are taken of both the electromagnetic radiation emitted in the particle-crystal interaction, from the standpoint of the energy spectra &mdash; with a NaI+PMT detector, and the output beam 2D tansverse profile &mdash; with a LYSO screen placed across the beam path and framed by pixel cameras. Further information on both the particle-crystal interaction physics and on the experimental setup features can be found, for example, [here](http://cds.cern.ch/record/2626151).
+This is **anaMamiTools**, a set of a Python- and Jupyter-based data handling and analysis tools for the STORM (former ELIOT) team experimental studies performed at the MAMI (MAinzer MIkrotron) B beamtest facility and focused on the electromagnetic interactions between high-energy particles and oriented crystalline lattices. In particular, measurements are taken of both the electromagnetic radiation emitted in the particle-crystal interaction, from the standpoint of the energy spectra &mdash; with a NaI+PMT detector, and the output beam 2D tansverse profile &mdash; with a LYSO screen placed across the beam path and framed by pixel cameras. Further information on both the particle-crystal interaction physics and on the experimental setup features can be found, for example, [here](http://cds.cern.ch/record/2626151).
 
 In practice:
 - **anaMamiDefl**(ection) performs the output beam spatial analysis, with the main focus on the case of channeling in bent cystalline targets; beam profile data are stored in TIFF files coming from the pixel cameras. It is optimised for the analysis of a dataset obtained with a single sample.
 - **anaMamiRad**(iation) performs the analysis of the radiation data, which come from the NaI+PMT detector acquisition system and are stored in CNF (Canberra Nuclear File) files. It supports comparison between different-sample datasets.
 - In order to easily handle the radiation data, it is necessary to convert the CNF files into formatted text files (TXT):  **cnfconv** by messlinger (on GitHub [here](https://github.com/messlinger/cnfconv)) was included in this bundle to ease this stage.
+
+An estensive description of how these tools work can be found in the code comments.
 
 Basic dependencies:
 
