@@ -23,7 +23,7 @@ Note: running the script via `./createEnvComplete.sh` won't work since the Bash 
 
 The anaMamiTools set can be downloaded either as a ZIP archive, from the Code drop-down menu [here](https://github.com/mattiasoldani/anaMamiTools), or directly from the terminal (open in your project working directory) via
 ```shell
-git clone git://github.com/mattiasoldani/anaMamiTools.git
+git clone https://github.com/mattiasoldani/anaMamiTools.git
 ```
 Note: the latter requires  [Git](https://git-scm.com/) installed on your machine.
 
