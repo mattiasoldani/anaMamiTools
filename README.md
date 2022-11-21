@@ -9,7 +9,7 @@ In practice:
 - **anaMamiRad**(iation) performs the analysis of the radiation data, which come from the NaI+PMT detector acquisition system and are stored in CNF (Canberra Nuclear File) files. It supports comparison between different-sample datasets.
 - In order to easily handle the radiation data, it is necessary to convert the CNF files into formatted text files (TXT):  **cnfconv** by messlinger (on GitHub [here](https://github.com/messlinger/cnfconv)) was included in this bundle to ease this stage.
 
-An estensive description of how these tools work can be found in the code comments.
+An extensive description of how these tools work can be found in the code comments.
 
 Basic dependencies:
 
